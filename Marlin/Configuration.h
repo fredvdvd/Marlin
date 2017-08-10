@@ -1203,7 +1203,7 @@
  * you must uncomment the following option or it won't work.
  *
  */
-//#define SDSUPPORT
+#define SDSUPPORT
 
 /**
  * SD CARD: SPI SPEED
@@ -1397,7 +1397,7 @@
 //#define ANET_KEYPAD_LCD         // Requires ADC_KEYPAD_PIN to be assigned to an analog pin.
                                   // This LCD is known to be susceptible to electrical interference
                                   // which scrambles the display.  Pressing any button clears it up.
-//#define ANET_FULL_GRAPHICS_LCD  // Anet 128x64 full graphics lcd with rotary encoder as used on Anet A6
+#define ANET_FULL_GRAPHICS_LCD  // Anet 128x64 full graphics lcd with rotary encoder as used on Anet A6
                                   // A clone of the RepRapDiscount full graphics display but with
                                   // different pins/wiring (see pins_ANET_10.h).
 
